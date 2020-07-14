@@ -71,7 +71,7 @@ Array.prototype.remove = function(val) {
         this.splice(index, 1);
     }
 };
-/* globals jQuery, $, Swal */
+/* globals jQuery, $, Swal */ /* eslint-disable */ /* spell-checker: disable */
 var hide_count,
     $ = unsafeWindow.$ || $;
 (function (window, undefined) {
@@ -485,7 +485,7 @@ const toolkit = {
         if(GM_getValue("upd")!==100)
         {
             Swal.fire({
-                title: '试图跳转确认',
+                title: '\u60a8\u662f\u5426\u662f\u4ece\u4e0b\u9762\u4e24\u4e2a\u5e73\u53f0\u5b89\u88c5\u7684\u811a\u672c\u003f',
                 html: "\u5982\u679c\u60a8\u4e0d\u662f\u4ecegreasy fork\u6216github\u5b89\u88c5\u7684\u672c\u811a\u672c, \u8bf7\u70b9\u51fb\u786e\u8ba4\u91cd\u65b0\u5b89\u88c5\u672c\u811a\u672c\u4ee5\u83b7\u53d6\u66f4\u65b0\u63a8\u9001, \u5426\u5219\u8bf7\u5ffd\u7565",
                 icon: 'info',
                 showCancelButton: true,
